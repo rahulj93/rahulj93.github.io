@@ -364,14 +364,22 @@ button:hover {
 /* Left & Right Post */
 
 .right-image-post {
-    margin-top: 60px;
-    padding-top: 60px;
-    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    /* margin-top: 60px; */
+    /* padding-top: 60px; */
+    /* border-top: 2px solid rgba(250, 250, 250, 0.1); */
 }
 
 .left-image img,
 .right-image img {
     border-radius: 5px;
+    width: 70%;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+.right-text {
+    margin-right: 50px;
+    /* width: 500px; */
 }
 
 .right-image-post h4,
@@ -425,7 +433,8 @@ button:hover {
 }
 
 .service-item .service-icon {
-    width: 70px;
+    /* width: 70px; */
+    width: 150px;
     height: 70px;
     display: inline-block;
     margin-bottom: 30px;
@@ -435,35 +444,153 @@ button:hover {
 }
 
 .service-item .first-service-icon {
-    background-image: url(../images/first-white-icon.png);
+    /* background-image: url(../images/first-white-icon.png); */
+    background-image: url(../images/html-css3.png);
+    background-size: contain;
 }
 
 .service-item:hover .first-service-icon {
-    background-image: url(../images/first-main-icon.png);
+    /* background-image: url(../images/first-main-icon.png); */
+    background-image: url(../images/html-css3.png);
 }
 
 .service-item .second-service-icon {
-    background-image: url(../images/second-white-icon.png);
+    /* background-image: url(../images/second-white-icon.png); */
+    background-image: url(../images/react-1-logo.png);
+    background-size: contain;
 }
 
+
 .service-item:hover .second-service-icon {
-    background-image: url(../images/second-main-icon.png);
+    /* background-image: url(../images/second-main-icon.png); */
+    background-image: url(../images/react-1-logo.png);
 }
 
 .service-item .third-service-icon {
-    background-image: url(../images/third-white-icon.png);
+    /* background-image: url(../images/third-white-icon.png); */
+    background-image: url(../images/redux.png);
+    background-size: contain;
 }
 
 .service-item:hover .third-service-icon {
-    background-image: url(../images/third-main-icon.png);
+    background-image: url(../images/redux.png);
 }
 
 .service-item .fourth-service-icon {
-    background-image: url(../images/fourth-white-icon.png);
+    background-image: url(../images/javascript-computer-programming-scripting-language-computer-icons-java-script.jpg);
+    background-size: contain;
 }
 
 .service-item:hover .fourth-service-icon {
-    background-image: url(../images/fourth-main-icon.png);
+    background-image: url(../images/javascript-computer-programming-scripting-language-computer-icons-java-script.jpg);
+}
+
+
+.service-item .fifth-service-icon {
+    background-image: url(../images/ruby-rails.jpg);
+    background-size: contain;
+}
+
+.service-item:hover .fifth-service-icon {
+    background-image: url(../images/ruby-rails.jpg);
+}
+
+
+.service-item .sixth-service-icon {
+    background-image: url(../images/mongoose.jpg);
+    background-size: contain;
+}
+
+.service-item:hover .sixth-service-icon {
+    background-image: url(../images/mongoose.jpg);
+}
+
+.service-item .seventh-service-icon {
+    background-image: url(../images/mongodb-logo.png);
+    background-size: contain;
+}
+.service-item:hover .seventh-service-icon {
+    background-image: url(../images/mongodb-logo.png);
+}
+
+.service-item .eighth-service-icon {
+    background-image: url(../images/node-js.jpg);
+    background-size: contain;
+}
+.service-item:hover .eighth-service-icon {
+    background-image: url(../images/node-js.jpg);
+}
+
+.service-item .ninth-service-icon {
+    background-image: url(../images/express.png);
+    background-size: contain;
+}
+.service-item:hover .ninth-service-icon {
+    background-image: url(../images/ExpressJS.png);
+}
+
+.service-item .tenth-service-icon {
+    background-image: url(../images/microsoft-sql-server-database-server-computer-icons-table-furniture-text-logo.png);
+    background-size: contain;
+}
+.service-item:hover .tenth-service-icon {
+    background-image: url(../images/microsoft-sql-server-database-server-computer-icons-table-furniture-text-logo.png);
+}
+
+.service-item .eleventh-service-icon {
+    background-image: url(../images/SQLite370.svg.png);
+    background-size: contain;
+}
+.service-item:hover .eleventh-service-icon {
+    background-image: url(../images/SQLite370.svg.png);
+}
+
+.service-item .twelfth-service-icon {
+    background-image: url(../images/1200px-Postgresql_elephant.svg.png);
+    background-size: contain;
+}
+.service-item:hover .twelfth-service-icon {
+    background-image: url(../images/1200px-Postgresql_elephant.svg.png);
+}
+
+.service-item .thirteenth-service-icon {
+    background-image: url(../images/webpack.png);
+    background-size: contain;
+}
+.service-item:hover .thirteenth-service-icon {
+    background-image: url(../images/webpack.png);
+}
+
+.service-item .fourteenth-service-icon {
+    background-image: url(../images/jquery.png);
+    background-size: contain;
+}
+.service-item:hover .fourteenth-service-icon {
+    background-image: url(../images/jquery.png);
+}
+
+.service-item .fifteenth-service-icon {
+    background-image: url(../images/git.png);
+    background-size: contain;
+}
+.service-item:hover .fifteenth-service-icon {
+    background-image: url(../images/git.png);
+}
+
+.service-item .sixteenth-service-icon {
+    background-image: url(../images/heroku.png);
+    background-size: contain;
+}
+.service-item:hover .sixteenth-service-icon {
+    background-image: url(../images/heroku.png);
+}
+
+.service-item .seventeenth-service-icon {
+    background-image: url(../images/aws.png);
+    background-size: contain;
+}
+.service-item:hover .seventeenth-service-icon {
+    background-image: url(../images/aws.png);
 }
 
 
