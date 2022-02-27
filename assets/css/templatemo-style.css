@@ -137,9 +137,6 @@ html {
 
 .menu .image img {
     transform: scale(0.75, 0.75);
-    /* width: 240px; */
-    /* height: 240px; */
-    /* border-radius: 50%; */
     text-align: center;
 }
 
