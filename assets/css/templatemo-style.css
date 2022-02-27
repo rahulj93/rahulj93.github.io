@@ -136,6 +136,7 @@ html {
 }
 
 .menu .image img {
+    transform: scale(0.7, 0.7);
     /* width: 240px; */
     /* height: 240px; */
     /* border-radius: 50%; */
