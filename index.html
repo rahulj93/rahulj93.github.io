@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <title>Rahul Jain - Software Engineer Reflux HTML CSS Template</title>
+    <title>Rahul Jain - Software Engineer (Reflux HTML CSS Template)</title>
 <!--
 Reflux Template
 https://templatemo.com/tm-531-reflux
@@ -37,10 +37,7 @@ https://templatemo.com/tm-531-reflux
           <i class="fa fa-times" id="menu-close"></i>
           <div class="container">
             <div class="image">
-              <!-- <a href="#"><img src="assets/images/author-image.jpg" alt="" /></a> -->
-              <!-- <a href="#"><img src="assets/images/rahul_jain.jpeg" alt="" /></a> -->
               <a href="#"><img src="assets/images/ProPic.jpg" alt="" /></a>
-
             </div>
             <div class="author-content">
               <h4>Rahul Jain</h4>
@@ -48,9 +45,9 @@ https://templatemo.com/tm-531-reflux
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">What I’m good at</a></li>
-                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section1" hidden>About Me</a></li>
+                <li><a href="#section3">Projects</a></li>
+                <li><a href="#section2">Skills & Technologies</a></li>
                 <li><a href="#section4">Contact Me</a></li>
               </ul>
             </nav>
@@ -63,13 +60,9 @@ https://templatemo.com/tm-531-reflux
                   <a href="https://www.linkedin.com/in/rahul-jain-ny"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                  <!-- <i class="fab fa-angellist"></i> -->
                   <a href="https://angel.co/u/rahul-jain-ny"><i class="fa fa-angellist"></i></a>
-                  <!-- <a href="#"><i class="fa fa-dribbble"></i></a> -->
+                  <!-- <a href="#"><i class="fa fa-rss"></i></a> -->
                 </li>
-                <!-- <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
-                </li> -->
               </ul>
             </div>
             <div class="copyright-text">
@@ -79,7 +72,7 @@ https://templatemo.com/tm-531-reflux
         </div>
       </div>
 
-      <section class="section about-me" data-section="section1">
+      <section class="section about-me" data-section="section1" hidden>
         <div class="container">
           <div class="section-heading">
             <h2>About Me</h2>
@@ -100,94 +93,10 @@ https://templatemo.com/tm-531-reflux
         </div>
       </section>
 
-      <section class="section my-services" data-section="section2">
-        <div class="container">
-          <div class="section-heading">
-            <h2>What I’m good at?</h2>
-            <div class="line-dec"></div>
-            <span>As a developer, I'm constantly exploring new languages, APIs, and frameworks.</span
-            >
-          </div>
-          <div class="row">
-            <!-- <div class="col-md-6"> -->
-              <div class="service-item">
-                <div class="first-service-icon service-icon"></div>
-                <h4>HTML5 & CSS3</h4>
-              </div>
-            <!-- </div> -->
-              <div class="service-item">
-                <div class="second-service-icon service-icon"></div>
-                <h4>React</h4>
-              </div>
-              <div class="service-item">
-                <div class="third-service-icon service-icon"></div>
-                <h4>Redux</h4>
-              </div>
-              <div class="service-item">
-                <div class="fourth-service-icon service-icon"></div>
-                <h4>JavaScript</h4>
-              </div>
-              <div class="service-item">
-                <div class="fifth-service-icon service-icon"></div>
-                <h4>Ruby/ Ruby on Rails</h4>
-              </div>
-              <div class="service-item">
-                <div class="sixth-service-icon service-icon"></div>
-                <h4>Mongoose</h4>
-              </div>
-              <div class="service-item">
-                <div class="seventh-service-icon service-icon"></div>
-                <h4>MongoDB</h4>
-              </div>
-              <div class="service-item">
-                <div class="eighth-service-icon service-icon"></div>
-                <h4>Node.js</h4>
-              </div>
-              <div class="service-item">
-                <div class="ninth-service-icon service-icon"></div>
-                <h4>Express.js</h4>
-              </div>
-              <div class="service-item">
-                <div class="tenth-service-icon service-icon"></div>
-                <h4>SQL</h4>
-              </div>
-              <div class="service-item">
-                <div class="eleventh-service-icon service-icon"></div>
-                <h4>SQLite3</h4>
-              </div>
-              <div class="service-item">
-                <div class="twelfth-service-icon service-icon"></div>
-                <h4>PostgreSQL</h4>
-              </div>
-              <div class="service-item">
-                <div class="thirteenth-service-icon service-icon"></div>
-                <h4>Webpack</h4>
-              </div>
-              <div class="service-item">
-                <div class="fourteenth-service-icon service-icon"></div>
-                <h4>jQuery</h4>
-              </div>
-              <div class="service-item">
-                <div class="fifteenth-service-icon service-icon"></div>
-                <h4>Git</h4>
-              </div>
-              <div class="service-item">
-                <div class="sixteenth-service-icon service-icon"></div>
-                <h4>Heroku</h4>
-              </div>
-              <div class="service-item">
-                <div class="seventeenth-service-icon service-icon"></div>
-                <h4>Amazon Web Services (AWS)</h4>
-              </div>
-
-          </div>
-        </div>
-      </section>
-
       <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
-            <h2>My Work</h2>
+            <h2>Projects</h2>
             <div class="line-dec"></div>
             <span> Here are some of my favorite personal projects. </span
             >
@@ -223,160 +132,148 @@ https://templatemo.com/tm-531-reflux
                 <label
                   ><input
                     type="radio"
-                    data-type="sudoku"
+                    data-type="jsudoku"
                     name="isotope-filter"
                   />
-                  <span>Sudoku Generator</span></label
+                  <span>JSudoku</span></label
                 >
               </form>
               <div class="isotope-box">
                 <div class="isotope-item" data-type="tbay">
                   <figure class="snip1321">
-                    <!-- <img
-                      src="assets/images/portfolio-01.jpg"
-                      alt="sq-sample26"
-                    /> -->
                     <img
-                      src="assets/images/Tbay auth page.png"
+                      src="assets/images/tbay-auth.png"
                       alt="sq-sample26"
                     />
                     <figcaption>
                       <a
-                        href="assets/images/portfolio-01.jpg"
+                        href="assets/images/tbay-auth.png"
                         data-lightbox="image-1"
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>First Title</h4>
-                      <span>free to use our template</span>
+                      <h4>tBay</h4>
+                      <span>User sign up and log in page.</span>
                     </figcaption>
                   </figure>
                 </div>
 
                 <div class="isotope-item" data-type="tbay">
                   <figure class="snip1321">
-                    <!-- <img
-                      src="assets/images/portfolio-02.jpg"
-                      alt="sq-sample26"
-                    /> -->
                     <img
-                      src="assets/images/Tbay Sell Page.png"
+                      src="assets/images/tbay-seller.png"
                       alt="sq-sample26"
                     />
                     <figcaption>
                       <a
-                        href="assets/images/portfolio-02.jpg"
+                        href="assets/images/tbay-seller.png"
                         data-lightbox="image-1"
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Second Title</h4>
-                      <span>please tell your friends</span>
+                      <h4>tBay</h4>
+                      <span>Seller's welcome page.</span>
                     </figcaption>
                   </figure>
                 </div>
 
                 <div class="isotope-item" data-type="LessTravelled">
                   <figure class="snip1321">
-                    <!-- <img
-                      src="assets/images/portfolio-03.jpg"
-                      alt="sq-sample26"
-                    /> -->
-                    <!-- <img
+                    <img
                       src="assets/images/LessTravelled.png"
                       alt="sq-sample26"
-                    /> -->
-                    <img
-                      src="assets/images/LessTravelled Screenshot.png"
-                      alt="sq-sample26"
                     />
                     <figcaption>
                       <a
-                        href="assets/images/portfolio-03.jpg"
+                        href="assets/images/LessTravelled.png"
                         data-lightbox="image-1"
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Item Third</h4>
-                      <span>customize anything</span>
+                      <h4>LessTravelled</h4>
+                      <span>Home Page</span>
                     </figcaption>
                   </figure>
                 </div>
 
-                <!-- <div class="isotope-item" data-type="people">
+                <div class="isotope-item" data-type="jsudoku">
                   <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-04.jpg"
-                      alt="sq-sample26"
-                    />
+                    <img src="assets/images/JSudoku.png" alt="sq-sample26" />
                     <figcaption>
                       <a
-                        href="assets/images/portfolio-04.jpg"
+                        href="assets/images/JSudoku.png"
                         data-lightbox="image-1"
                         data-title="Caption"
                         ><i class="fa fa-search"></i
                       ></a>
-                      <h4>Item Fourth</h4>
-                      <span>Re-distribution not allowed</span>
-                    </figcaption>
-                  </figure>
-                </div> -->
-
-                <div class="isotope-item" data-type="sudoku">
-                  <figure class="snip1321">
-                    <!-- <img
-                      src="assets/images/portfolio-05.jpg"
-                      alt="sq-sample26"
-                    /> -->
-                    <img src="assets/images/Sudoku App.png" alt="sq-sample26" />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-05.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Fifth Awesome</h4>
-                      <span>Ut sollicitudin risus</span>
+                      <h4>JSudoku</h4>
+                      <span>Sudoku board on main page</span>
                     </figcaption>
                   </figure>
                 </div>
-
-                <!-- <div class="isotope-item" data-type="animals">
-                  <figure class="snip1321">
-                    <img
-                      src="assets/images/portfolio-06.jpg"
-                      alt="sq-sample26"
-                    />
-                    <figcaption>
-                      <a
-                        href="assets/images/portfolio-06.jpg"
-                        data-lightbox="image-1"
-                        data-title="Caption"
-                        ><i class="fa fa-search"></i
-                      ></a>
-                      <h4>Awesome Sixth</h4>
-                      <span>Donec eget massa ante</span>
-                    </figcaption>
-                  </figure>
-                </div> -->
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Skills & Technologies</h2>
+            <div class="line-dec"></div>
+            <span>As a developer, I'm constantly exploring new languages, tools, and frameworks.</span>
+          </div>
+          <div class="row" id="skills">
+              <script>
+                const skills = [
+                  {name: 'HTML5 & CSS3', className:'first-service-icon service-icon'}, 
+                  {name: 'React', className:'second-service-icon service-icon'}, 
+                  {name: 'Redux', className:'third-service-icon service-icon'}, 
+                  {name: 'JavaScript', className:'fourth-service-icon service-icon'}, 
+                  {name: 'Ruby/Ruby on Rails', className:'fifth-service-icon service-icon'}, 
+                  {name: 'Mongoose', className:'sixth-service-icon service-icon'}, 
+                  {name: 'MongoDB', className:'seventh-service-icon service-icon'}, 
+                  {name: 'Node.js', className:'eighth-service-icon service-icon'}, 
+                  {name: 'Express.js', className:'ninth-service-icon service-icon'}, 
+                  {name: 'SQL', className:'tenth-service-icon service-icon'}, 
+                  {name: 'SQLite3', className:'eleventh-service-icon service-icon'}, 
+                  {name: 'PostgreSQL', className:'twelfth-service-icon service-icon'}, 
+                  {name: 'Webpack', className:'thirteenth-service-icon service-icon'}, 
+                  {name: 'JQuery', className:'fourteenth-service-icon service-icon'}, 
+                  {name: 'Git', className:'fifteenth-service-icon service-icon'}, 
+                  {name: 'Heroku', className:'sixteenth-service-icon service-icon'}, 
+                  {name: 'Amazon Web Services (AWS)', className:'seventeenth-service-icon service-icon'} 
+                ]; 
+                const createElementWithOptions = (tag, classname="", innertext="") => {
+                  const element = document.createElement(tag); 
+                  element.className = classname; 
+                  element.innerHTML = innertext; 
+                  return element; 
+                }; 
+
+                const skillsSection = document.getElementById('skills'); 
+
+                skills.forEach(skill => {
+                    const tile = createElementWithOptions("div", "service-item"); 
+                    tile.appendChild(createElementWithOptions("div", skill.className));
+                    tile.appendChild(createElementWithOptions("p", "", skill.name)); 
+                    skillsSection.appendChild(tile); 
+                }); 
+              </script>
+          </div>
+
+        </div>
+      </section>
+      
       <section class="section contact-me" data-section="section4">
         <div class="container">
           <div class="section-heading">
             <h2>Contact Me</h2>
+            <p>Please use the links to my socials to connect with me. </p>
             <div class="line-dec"></div>
-            <!-- <span
-              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.</span> -->
           </div>
-          <div class="row">
+          <div class="row" hidden>
             <div class="right-content">
               <div class="container">
                 <form id="contact" action="" method="post">
